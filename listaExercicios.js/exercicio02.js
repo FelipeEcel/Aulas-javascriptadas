@@ -1,7 +1,7 @@
-function Carrinho (preço1, preço2) {
+function somaPrecos(preco1, preco2) {
+    let resultado = preco1 + preco2
+    return resultado;
+  }
 
-    return preço1 + preço2;
-
-}
-
-console.log(`Soma: ${Carrinho(10,5)}`)
+  let total = somaPrecos(10, 20)
+  console.log(`o preço total é : ${total}`);

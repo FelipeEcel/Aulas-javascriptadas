@@ -1,8 +1,8 @@
-const notas = (notasAlunos=[10,6,7,9,2,0]) => {
+const notas = (notasAlunos=[9, 10, 7, 5, 3, 0]) => {
 
-    for (const notas of notasAlunos)
-        if (notas >=7)
-            console.log (`Aprovado ${notas}`)
+    for(const notas of notasAlunos)
+        if(notas >=7)
+            console.log(`Aprovado ${notas}`)
 
 }
 notas()

@@ -1,6 +1,5 @@
-function mensagem () {
-
-    console.log ("Bem Vindo ao Sistema!")
-
+function mensagem(){
+    console.log("Bem-vindo ao sistema!")
 }
+
 mensagem()

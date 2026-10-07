@@ -7,4 +7,4 @@ function anoBissexto(anoFinal) {
     }
 
     }
-    anoBissexto(2020)
+    anoBissexto(2019)

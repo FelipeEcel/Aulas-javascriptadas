@@ -1,6 +1,5 @@
-const multiplicar = function (n1, n2) {
+const multiplicacao = (a, b) => {
+    return a * b;
+  };
 
-    return n1 * n2
-
-}
- console.log (`Resultado: ${multiplicar(10,5)}`)
+  console.log(`o total é : ${multiplicacao(10, 5)}`);

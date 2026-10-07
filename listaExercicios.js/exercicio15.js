@@ -1,8 +1,8 @@
-function segredo(){
+function Secreto(){
 
-    const segredo = "123"
+    const secreto = "123"
 
-    return ("Segredo")
+    return ("Secreto")
 
 }
-console.log(segredo())
+console.log(secreto())

@@ -1,14 +1,8 @@
-function estoque () {
+let estoque = [10]
 
-    const Produto = 10
-
-        if (Produto < 10){
-            console.log ("Estoque acabando")
-        }
-        else {
-
-            console.log ("Estoque normal")   
-            
-        }
+if (estoque >= 5){
+    return console.log("Estoque Normal!")
 }
-estoque()
+else {
+    return console.log("Estoque Crítico!")
+}

@@ -1,6 +1,14 @@
-function Checagem (idade) {
+let idade
 
-    return idade >= 18 ? 'permitido' : 'bloqueado'
+function verificarIdade(idade){
+
+    if (idade >= 18){
+    console.log(`Você é maior de idade`)
+    }
+    else{
+    console.log(`Você é menor de idade`)
+    }
 
 }
-console.log (`${Checagem(15)}`)
+
+verificarIdade(15)

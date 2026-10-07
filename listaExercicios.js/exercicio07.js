@@ -1,9 +1,8 @@
-const energiaInicial =  function (stamina) {
+let energiaInicial = 100
 
-    while (stamina >= 0){ 
-        console.log (stamina)
-        stamina -= 10
+while (energiaInicial >= 0){
 
-    }
+console.log(`${energiaInicial}`)
+energiaInicial -= 10;
+
 }
-energiaInicial(100)

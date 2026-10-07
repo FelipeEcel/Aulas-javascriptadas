@@ -1,10 +1,6 @@
-const roleta = (giros) => {
+let giros = 0
 
-     giros = 0
-    do {
-        
-        console.log (`girando a roleta`)
-        giros++
-    } while (giros < 1)   
-}
-roleta()
+do{
+    console.log(`Girando a roleta...`)
+    giros++
+} while (giros < 1)

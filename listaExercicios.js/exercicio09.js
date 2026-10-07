@@ -1,5 +1,6 @@
-const despedidas = (nomes) => {
-    return `Tchau ${nomes} até depois.`
+const despedidas = (listaNomes) => {
+  listaNomes.forEach(nome => console.log(`Até logo, ${nome}!`));
+};
 
-  }
-  console.log (despedidas(`Gabriel`))
+const clientes = ["Felipe", "Maria", "Lucas"];
+despedidas(clientes);

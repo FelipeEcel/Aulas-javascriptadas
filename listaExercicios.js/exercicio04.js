@@ -1,10 +1,8 @@
-function contagem () {
+let contador = 0
 
-    let = 0
-    const final = 10
+while (contador <= 100){
 
-    for (i = 0; i <= final; i++){
-        console.log (i)
-    }
+console.log(`${contador}`)
+contador++;
+
 }
-contagem ()
